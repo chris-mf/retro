@@ -1,13 +1,88 @@
 img {
     width: 100%;
+    margin-bottom: 1rem;
 }
+
+body {
+    background-color: #FFF6ED;  
+  }
 
 .container{
 margin-bottom: 5rem;
-border-style: solid;
-border-color: red;
+/* border-style: solid;
+border-color: red; */
+}
+
+.centertext{
+    text-align: center;
 }
 
 .navbar{
 margin-bottom: 5rem;
+}
+
+.spacer{
+margin-bottom: 1.5rem;
+}
+
+.topspacer {
+    margin-top: 4rem;
+}
+
+/* Fonts */
+
+.display-3{
+    font-family: 'MaisonNeueExt-Book';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 4.5rem;
+    color: #2C2C2C;
+    line-height: 90px;
+}
+
+h2{
+    font-family: 'MaisonNeueExt-Book';
+    font-weight: normal;
+    font-style: normal; 
+}
+
+h4{
+    font-family: 'MaisonNeueExt-Book';
+    font-weight: normal;
+    font-style: normal; 
+}
+
+
+p {
+    font-family: 'MaisonNeue-Book';
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('/fonts/MaisonNeue-Bold.woff2') format('woff2'),
+        url('/fonts/MaisonNeue-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('/fonts/MaisonNeue-Book.woff2') format('woff2'),
+        url('/fonts/MaisonNeue-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison Neue Ext Book';
+    src: url('/fonts/MaisonNeueExt-Book.woff2') format('woff2'),
+        url('/fonts/MaisonNeueExt-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
