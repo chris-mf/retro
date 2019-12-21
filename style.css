@@ -1,8 +1,15 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+
 img {
     width: 100%;
     max-width: 800px;
-    min-width: 100%;
+    min-width: 95%;
 }
+
+
 
 body {
     background-color: #FFF6ED;  
@@ -18,10 +25,27 @@ margin-bottom: 5rem;
 border-color: red; */
 }
 
+.container-fluid{
+    max-width: 1600px;
+}
+
+
+
 .padding{
     padding-right: 20px;
 }
 
+.arrow-wave{
+    max-width: 160px;
+    min-width: 200px;
+    padding-top: 140%;
+
+}
+
+
+.spaceafter{
+    margin-bottom: 6rem;
+}
 
 
 .maxtext{
@@ -42,8 +66,17 @@ border-color: red; */
 margin-bottom: 5rem;
 }
 
+
 .spacer{
-margin-bottom: 1.2rem;
+margin-bottom: 2.2rem;
+}
+
+.spacer-mini{
+    margin-bottom: 1.2rem;
+}
+
+.spacer-small{
+    margin-bottom: 1.5rem; 
 }
 
 .topspacer {
@@ -55,24 +88,24 @@ margin-bottom: 1.2rem;
     height: 70px;
 }
 
+.inset{
+    margin-left: 5%;
+}
+
 
 /* breakpoints */
 
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-.inset {
-    margin-left: 10%;
 
-}
-/* .imginset{
-    min-width: 30%;
-    max-width: 30%;
-} */
 
-}
 
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+  /* Large devices (desktops, 992px and up) */
+  /* @media (min-width: 992px) { 
+    .inset {
+        margin-left: 10%;
+    } */
+
+
+
 
 /* Fonts */
 
@@ -83,6 +116,7 @@ margin-bottom: 1.2rem;
     font-size: 80px;
     color: #2C2C2C;
     line-height: 100px;
+    padding-bottom: 20px;
 
 }
 
@@ -90,12 +124,19 @@ margin-bottom: 1.2rem;
     font-family: 'MaisonNeueExt-Book';
     font-weight: normal;
     font-style: normal;
-    font-size: 16px; 
+    font-size: 22px; 
     text-rendering: optimizeLegibility;
   -webkit-font-feature-settings: "kern"1;
   font-feature-settings: "kern"1;
   -webkit-font-smoothing: antialiased;
+  color: black;
+  text-decoration-line: underline;
 }
+
+.link:hover {
+    color:  rgb(109, 109, 109);
+    transition: 0.1s ease-in-out; 
+  }
 
 h2{
     font-family: 'MaisonNeueExt-Book';
@@ -133,12 +174,24 @@ h6{
     font-family: 'MaisonNeueExt-Book';
     font-weight: normal;
     font-style: normal; 
-    line-height: 36px;
-
+    /* line-height: 36px; */
     font-size: 22px;
     text-rendering: optimizeLegibility;
   -webkit-font-feature-settings: "kern"1;
   font-feature-settings: "kern"1;
+}
+
+.boldp {
+    font-family: 'MaisonNeue-bold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px; 
+    text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "kern"1;
+  font-feature-settings: "kern"1;
+  -webkit-font-smoothing: antialiased;
+  color: black;
+}  
 }
 
 
@@ -176,3 +229,9 @@ p {
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: "Glyphicons Halflings";
+    src: url("../fonts/glyphicons-halflings-regular.eot");
+    src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+  }
