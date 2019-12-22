@@ -5,10 +5,40 @@ html {
 
 img {
     width: 100%;
-    max-width: 800px;
+    max-width: 681px;
     min-width: 95%;
 }
 
+p {
+color:#637381;
+}
+
+footer {
+    border-top: 1px #000 solid;
+    /* padding-top: 12px; */
+    margin-top: 30px;
+}
+
+.sideline {
+    border-right: #2C2C2C 1px solid;
+}
+
+.linksmall {
+    font-family: 'MaisonNeue-Book';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    color: #2C2C2C;
+    line-height: 100px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+
+}
+
+.linksmall:hover {
+    color:  rgb(109, 109, 109);
+    transition: 0.1s ease-in-out; 
+  }
 
 
 body {
@@ -17,6 +47,10 @@ body {
     -webkit-font-feature-settings: "kern"1;
     font-feature-settings: "kern"1;
     -webkit-font-smoothing: antialiased;
+    /* background: rgb(254,247,240);
+    background: linear-gradient(175deg, rgba(254,247,240,1) 0%, rgba(243,241,249,1) 50%, rgba(250,239,239,1) 100%); */
+    background: rgb(254,247,240);
+    background: linear-gradient(180deg, rgba(254,247,240,1) 0%, rgba(254,247,240,1) 24%, rgba(250,250,250,1) 24%);
   }
 
 .container{
@@ -35,12 +69,7 @@ border-color: red; */
     padding-right: 20px;
 }
 
-.arrow-wave{
-    max-width: 160px;
-    min-width: 200px;
-    padding-top: 140%;
 
-}
 
 
 .spaceafter{
@@ -49,7 +78,7 @@ border-color: red; */
 
 
 .maxtext{
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 .container-fluid {
@@ -59,8 +88,20 @@ border-color: red; */
 }
 
 .centertext{
-    text-align: center;
+    text-align:center;
 }
+
+.illustration {
+    height: 200px;
+  width: 50%;
+}
+
+.illo {
+    width: 90%;
+    min-width: 2%;
+    max-width: 500px;
+}
+
 
 .navbar{
 margin-bottom: 5rem;
@@ -84,25 +125,15 @@ margin-bottom: 2.2rem;
 }
 
 .navbar{
-    border-bottom: black solid 1px;
+    /* border-bottom: black solid 1px; */
     height: 70px;
+    padding: 2%;
 }
 
 .inset{
     margin-left: 5%;
 }
 
-
-/* breakpoints */
-
-
-
-
-  /* Large devices (desktops, 992px and up) */
-  /* @media (min-width: 992px) { 
-    .inset {
-        margin-left: 10%;
-    } */
 
 
 
@@ -138,11 +169,31 @@ margin-bottom: 2.2rem;
     transition: 0.1s ease-in-out; 
   }
 
+.spacerlist{
+    padding-top: 20px;
+}
+
+.card-body {
+    max-width: 800px;
+}
+
+.accordion{
+    margin-bottom: 40px;
+}
+
+
+.arrow-wave{
+    max-width: 160px;
+    min-width: 200px;
+    padding-top: 140%;
+
+}
+
 h2{
     font-family: 'MaisonNeueExt-Book';
     font-weight: normal;
     font-style: normal;
-    font-size: 60px; 
+    font-size: 50px; 
     text-rendering: optimizeLegibility;
   -webkit-font-feature-settings: "kern"1;
   font-feature-settings: "kern"1;
@@ -185,7 +236,7 @@ h6{
     font-family: 'MaisonNeue-bold';
     font-weight: normal;
     font-style: normal;
-    font-size: 18px; 
+    font-size: 16px; 
     text-rendering: optimizeLegibility;
   -webkit-font-feature-settings: "kern"1;
   font-feature-settings: "kern"1;
@@ -203,6 +254,32 @@ p {
   -webkit-font-feature-settings: "kern"1;
   font-feature-settings: "kern"1;
 }
+
+
+
+/* Media queires  */
+
+
+@media (max-width: 575.98px) { 
+    h1 {
+        font-size: 30px;
+    }
+
+.display-3{
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.inset{
+    margin-left: 1%;
+}
+
+.navbar {
+    margin-bottom: 2rem;
+}
+
+}
+
 
 
 
