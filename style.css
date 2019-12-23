@@ -1,9 +1,9 @@
 
 
-@font-face {
+/* @font-face {
     font-family: 'Maison Neue';
     src: url('./fonts/MaisonNeue-Bold.woff2') format('woff2'),
-        url('./fonts/MaisonNeue-Bold.woff') format('woff');
+        url('./fonts/MaisonNeue-Bold.woff') format('woff'),
     font-weight: bold;
     font-style: normal;
 }
@@ -11,22 +11,51 @@
 @font-face {
     font-family: 'Maison Neue';
     src: url('./fonts/MaisonNeue-Book.woff2') format('woff2'),
-        url('./fonts/MaisonNeue-Book.woff') format('woff');
+        url('./fonts/MaisonNeue-Book.woff') format('woff'),
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Maison Neue Ext Book';
-    src: url('./fonts/MaisonNeueExt-Book.woff2') format('woff2'),
-        url('./fonts/MaisonNeueExt-Book.woff') format('woff');
+    src: url("./fonts/MaisonNeueExt-Book.woff2") format("woff2"),
+        url("./fonts/MaisonNeueExt-Book.woff") format("woff"),
+    font-weight: normal;
+    font-style: normal;
+} */
+
+
+@font-face {
+    font-family: 'Maison-Neue-Book';
+    src: url('./fonts/MaisonNeue-Book.woff2') format('woff2'),
+        url('./fonts/MaisonNeue-Book.woff') format('woff'),
+        url('./fonts/MaisonNeue-Book.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
+    font-family: 'Maison-Neue-Bold';
+    src: url('./fonts/MaisonNeue-Bold.woff2') format('woff2'),
+        url('./fonts/MaisonNeue-Bold.woff') format('woff'),
+        url('./fonts/MaisonNeue-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison-Neue-Ext-Book';
+    src: url('./fonts/MaisonNeueExt-Book.woff2') format('woff2'),
+        url('./fonts/MaisonNeueExt-Book.woff') format('woff'),
+        url('./fonts/MaisonNeueExt-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
     font-family: "Glyphicons Halflings";
-    src: url("./fonts/glyphicons-halflings-regular.eot");
+    src: url("./fonts/glyphicons-halflings-regular.eot"),
     src: url("./fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("./fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("./fonts/glyphicons-halflings-regular.woff") format("woff"), url("./fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("./fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
   }
 
@@ -37,6 +66,9 @@ html {
     scroll-behavior: smooth;
   }
 
+.inter{
+    font-family: 'Inter';
+}
 
 img {
     width: 100%;
@@ -46,6 +78,7 @@ img {
 
 p {
 color:#637381;
+font-weight: 400;
 }
 
 footer {
@@ -58,7 +91,7 @@ footer {
 }
 
 .linksmall {
-    font-family: 'MaisonNeue-Book';
+    font-family: 'Maison-Neue-Book';
     font-weight: normal;
     font-style: normal;
     font-size: 16px;
@@ -184,7 +217,7 @@ margin-bottom: 2.2rem;
 /* Fonts */
 
 .display-3{
-    font-family: 'MaisonNeueExt-Book';
+    font-family: 'Maison-Neue-Ext-Book';
     font-weight: normal;
     font-style: normal;
     font-size: 80px;
@@ -195,7 +228,7 @@ margin-bottom: 2.2rem;
 }
 
 .text{
-    font-family: 'MaisonNeueExt-Book';
+    font-family: 'Maison-Neue-Ext-Book';
 }
 
 .padding-bottom{
@@ -203,7 +236,7 @@ padding-bottom: 2rem;
 }
 
 .link{
-    font-family: 'MaisonNeueExt-Book';
+    font-family: 'Maison-Neue-Ext-Book';
     font-weight: normal;
     font-style: normal;
     font-size: 22px; 
@@ -267,7 +300,7 @@ li{
     font-size: 22px;
     /* text-decoration: underline; */
     margin-bottom: 2rem;
-    font-family:'MaisonNeueExt-Book' ;
+    font-family:'Maison-Neue-Ext-Book' ;
     text-align: left;
 }
 
@@ -291,7 +324,7 @@ li{
 }
 
 h2{
-    font-family: 'MaisonNeueExt-Book';
+    font-family: 'Maison-Neue-Ext-Book';
     font-weight: normal;
     font-style: normal;
     font-size: 50px; 
@@ -301,7 +334,7 @@ h2{
 }
 
 h4{
-    font-family: 'MaisonNeueExt-Book';
+    font-family: 'Maison-Neue-Ext-Book';
     font-weight: normal;
     font-style: normal; 
     line-height: 2rem;
@@ -312,7 +345,7 @@ h4{
 }
 
 h5{
-    font-family: 'MaisonNeueExt-Book';
+    font-family: 'Maison-Neue-Ext-Book';
     font-weight: normal;
     font-style: normal; 
     line-height: 36px;
@@ -323,7 +356,7 @@ h5{
 }
 
 h6{
-    font-family: 'MaisonNeueExt-Book';
+    font-family: 'Maison-Neue-Ext-Book';
     font-weight: normal;
     font-style: normal; 
     /* line-height: 36px; */
@@ -334,7 +367,7 @@ h6{
 }
 
 .boldp {
-    font-family: 'MaisonNeue-bold';
+    font-family: 'Maison-Neue-Bold';
     font-weight: normal;
     font-style: normal;
     font-size: 16px; 
@@ -347,12 +380,16 @@ h6{
 
 
 p {
-    font-family: 'MaisonNeue-Book';
+    font-family: 'Maison-Neue-Book';
     font-weight: normal;
     font-style: normal;
     text-rendering: optimizeLegibility;
   -webkit-font-feature-settings: "kern"1;
   font-feature-settings: "kern"1;
+}
+
+a{
+    color: #2C2C2C;
 }
 
 
