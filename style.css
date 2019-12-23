@@ -15,7 +15,6 @@ color:#637381;
 
 footer {
     border-top: 1px #000 solid;
-    /* padding-top: 12px; */
     margin-top: 30px;
 }
 
@@ -47,8 +46,6 @@ body {
     -webkit-font-feature-settings: "kern"1;
     font-feature-settings: "kern"1;
     -webkit-font-smoothing: antialiased;
-    /* background: rgb(254,247,240);
-    background: linear-gradient(175deg, rgba(254,247,240,1) 0%, rgba(243,241,249,1) 50%, rgba(250,239,239,1) 100%); */
     background: rgb(221,232,229);
     background: linear-gradient(180deg, rgba(221,232,229,1) 0%, rgba(250,250,250,1) 70%);
   }
@@ -59,8 +56,6 @@ body {
 
 .container{
 margin-bottom: 5rem;
-/* border-style: solid;
-border-color: red; */
 }
 
 .container-fluid{
@@ -314,7 +309,6 @@ h6{
   -webkit-font-smoothing: antialiased;
   color: black;
 }  
-}
 
 
 p {
@@ -332,7 +326,7 @@ p {
 
 
 @media (max-width: 575.98px) { 
-    h1 {
+h1 {
         font-size: 30px;
     }
 
