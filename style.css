@@ -1,3 +1,38 @@
+
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('/fonts/MaisonNeue-Bold.woff2') format('woff2'),
+        url('/fonts/MaisonNeue-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('/fonts/MaisonNeue-Book.woff2') format('woff2'),
+        url('/fonts/MaisonNeue-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison Neue Ext Book';
+    src: url('/fonts/MaisonNeueExt-Book.woff2') format('woff2'),
+        url('/fonts/MaisonNeueExt-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Glyphicons Halflings";
+    src: url("../fonts/glyphicons-halflings-regular.eot");
+    src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+  }
+
+
+
+
 html {
     scroll-behavior: smooth;
   }
@@ -346,34 +381,3 @@ h1 {
 }
 
 
-
-
-@font-face {
-    font-family: 'Maison Neue';
-    src: url('/fonts/MaisonNeue-Bold.woff2') format('woff2'),
-        url('/fonts/MaisonNeue-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Maison Neue';
-    src: url('/fonts/MaisonNeue-Book.woff2') format('woff2'),
-        url('/fonts/MaisonNeue-Book.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Maison Neue Ext Book';
-    src: url('/fonts/MaisonNeueExt-Book.woff2') format('woff2'),
-        url('/fonts/MaisonNeueExt-Book.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Glyphicons Halflings";
-    src: url("../fonts/glyphicons-halflings-regular.eot");
-    src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
-  }
