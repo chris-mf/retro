@@ -1,30 +1,4 @@
 
-
-/* @font-face {
-    font-family: 'Maison Neue';
-    src: url('./fonts/MaisonNeue-Bold.woff2') format('woff2'),
-        url('./fonts/MaisonNeue-Bold.woff') format('woff'),
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Maison Neue';
-    src: url('./fonts/MaisonNeue-Book.woff2') format('woff2'),
-        url('./fonts/MaisonNeue-Book.woff') format('woff'),
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Maison Neue Ext Book';
-    src: url("./fonts/MaisonNeueExt-Book.woff2") format("woff2"),
-        url("./fonts/MaisonNeueExt-Book.woff") format("woff"),
-    font-weight: normal;
-    font-style: normal;
-} */
-
-
 @font-face {
     font-family: 'Maison-Neue-Book';
     src: url('./fonts/MaisonNeue-Book.woff2') format('woff2'),
@@ -61,14 +35,10 @@
 
 
 
-
 html {
     scroll-behavior: smooth;
   }
 
-.inter{
-    font-family: 'Inter';
-}
 
 img {
     width: 100%;
@@ -79,6 +49,11 @@ img {
 p {
 color:#637381;
 font-weight: 400;
+font-family: 'Maison-Neue-Book';
+}
+
+.arrow-wave{
+    visibility: hidden;
 }
 
 footer {
@@ -173,6 +148,25 @@ margin-bottom: 5rem;
     max-width: 500px;
 }
 
+.spacer-top-small{
+    margin-top: 10px;
+}
+
+.small-svg{
+    width: 32px;
+    min-width: 32px;
+    padding-left: 10px;
+}
+
+.text-right{
+    color: #2C2C2C;
+}
+
+.mini-svg{
+    width: 26px;
+    min-width: 26px;
+    padding-right: 10px;
+}
 
 .navbar{
 margin-bottom: 5rem;
@@ -202,7 +196,7 @@ margin-bottom: 2.2rem;
 .navbar{
     border-bottom: black solid 1px;
     height: 70px;
-    padding: 5%;
+    /* padding-left: 2%; */
     max-height: 70px;
 }
 
@@ -327,7 +321,7 @@ h2{
     font-family: 'Maison-Neue-Ext-Book';
     font-weight: normal;
     font-style: normal;
-    font-size: 50px; 
+    font-size: 45px; 
     text-rendering: optimizeLegibility;
   -webkit-font-feature-settings: "kern"1;
   font-feature-settings: "kern"1;
