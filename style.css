@@ -1,3 +1,70 @@
+/*------------------------------------*\
+  #GLOBAL
+\*------------------------------------*/
+
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+body {
+    background-color: #FFF6ED;  
+    text-rendering: optimizeLegibility;
+    -webkit-font-feature-settings: "kern"1;
+    font-feature-settings: "kern"1;
+    -webkit-font-smoothing: antialiased;
+    background: #FFF6ED;
+    /* background: rgb(221,232,229);
+    background: linear-gradient(180deg, rgba(221,232,229,1) 0%, rgba(250,250,250,1) 70%); */
+  }
+
+.color2{
+    background-color: #fafafa;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    /* margin-bottom: 2rem; */
+
+}
+
+.color3{
+background-color: #FFF6ED;
+padding-top: 4rem;
+padding-bottom: 1rem;
+}
+
+/* .movedown{
+   padding-top: 5rem;
+} */
+
+img {
+    width: 100%;
+    max-width: 681px;
+    min-width: 95%;
+}
+
+p {
+color:#637381;
+font-weight: 400;
+font-family: 'Maison-Neue-Book';
+font-size: 18px;
+}
+
+
+footer {
+    border-top: 1px #000 solid;
+    margin-top: 30px;
+}
+
+
+
+
+/*------------------------------------*\
+  #FONTS
+\*------------------------------------*/
+
+
 
 @font-face {
     font-family: 'Maison-Neue-Book';
@@ -34,64 +101,101 @@
   }
 
 
-
-html {
-    scroll-behavior: smooth;
-  }
-
-
-img {
-    width: 100%;
-    max-width: 681px;
-    min-width: 95%;
-}
-
-p {
-color:#637381;
-font-weight: 400;
-font-family: 'Maison-Neue-Book';
-}
-
-.arrow-wave{
-    visibility: hidden;
-}
-
-footer {
-    border-top: 1px #000 solid;
-    margin-top: 30px;
-}
-
-.sideline {
-    border-right: #2C2C2C 1px solid;
-}
-
-.linksmall {
-    font-family: 'Maison-Neue-Book';
+  .display-3{
+    font-family: 'Maison-Neue-Ext-Book';
     font-weight: normal;
     font-style: normal;
-    font-size: 16px;
+    font-size: 80px;
     color: #2C2C2C;
     line-height: 100px;
     padding-bottom: 20px;
-    text-decoration: underline;
 
 }
 
-.linksmall:hover {
-    color:  rgb(109, 109, 109);
-    transition: 0.1s ease-in-out; 
-  }
+.text{
+    font-family: 'Maison-Neue-Ext-Book';
+}  
 
 
-body {
-    background-color: #FFF6ED;  
+h2{
+    font-family: 'Maison-Neue-Ext-Book';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 45px; 
     text-rendering: optimizeLegibility;
-    -webkit-font-feature-settings: "kern"1;
-    font-feature-settings: "kern"1;
-    -webkit-font-smoothing: antialiased;
-    background: rgb(221,232,229);
-    background: linear-gradient(180deg, rgba(221,232,229,1) 0%, rgba(250,250,250,1) 70%);
-  }
+  -webkit-font-feature-settings: "kern"1;
+  font-feature-settings: "kern"1;
+}
+
+h4{
+    font-family: 'Maison-Neue-Ext-Book';
+    font-weight: normal;
+    font-style: normal; 
+    line-height: 2rem;
+    font-size: 30px;
+    text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "kern"1;
+  font-feature-settings: "kern"1;
+}
+
+
+
+h5{
+    font-family: 'Maison-Neue-Ext-Book';
+    font-weight: normal;
+    font-style: normal; 
+    line-height: 36px;
+    font-size: 26px;
+    text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "kern"1;
+  font-feature-settings: "kern"1;
+}
+
+h6{
+    font-family: 'Maison-Neue-Ext-Book';
+    font-weight: normal;
+    font-style: normal; 
+    /* line-height: 36px; */
+    font-size: 22px;
+    text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "kern"1;
+  font-feature-settings: "kern"1;
+}
+
+.boldp {
+    font-family: 'Maison-Neue-Bold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px; 
+    text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "kern"1;
+  font-feature-settings: "kern"1;
+  -webkit-font-smoothing: antialiased;
+  color: black;
+}  
+
+
+p {
+    font-family: 'Maison-Neue-Book';
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "kern"1;
+  font-feature-settings: "kern"1;
+}
+
+a{
+    color: #2C2C2C;
+}
+
+
+
+
+
+/*------------------------------------*\
+  #COMPONENTS
+\*------------------------------------*/
+
 
 .padding-right{
     padding-right: 20px;
@@ -105,13 +209,9 @@ margin-bottom: 5rem;
     max-width: 1600px;
 }
 
-
-
 .padding{
     padding-right: 20px;
 }
-
-
 
 
 .spaceafter{
@@ -160,7 +260,23 @@ margin-bottom: 5rem;
 
 .text-right{
     color: #2C2C2C;
+    padding-right: 20px;
 }
+
+
+.navbar{
+    border-bottom: black solid 1px;
+    height: 70px;
+    /* padding-left: 2%; */
+    max-height: 70px;
+}
+
+.color1{
+    background: #C7D5EA;
+}
+
+
+
 
 .mini-svg{
     width: 26px;
@@ -193,40 +309,44 @@ margin-bottom: 2.2rem;
     margin-top: 4rem;
 }
 
-.navbar{
-    border-bottom: black solid 1px;
-    height: 70px;
-    /* padding-left: 2%; */
-    max-height: 70px;
-}
+
 
 .inset{
     margin-left: 5%;
 }
 
+.showhide{
+    display: none;
+}
 
 
 
 
-/* Fonts */
+/*------------------------------------*\
+  #LINKS
+\*------------------------------------*/
 
-.display-3{
-    font-family: 'Maison-Neue-Ext-Book';
+
+.linksmall {
+    font-family: 'Maison-Neue-Book';
     font-weight: normal;
     font-style: normal;
-    font-size: 80px;
+    font-size: 18px;
     color: #2C2C2C;
     line-height: 100px;
     padding-bottom: 20px;
+    text-decoration: underline;
 
 }
 
-.text{
-    font-family: 'Maison-Neue-Ext-Book';
-}
+.linksmall:hover {
+    color:  rgb(109, 109, 109);
+    transition: 0.1s ease-in-out; 
+  }
 
-.padding-bottom{
-padding-bottom: 2rem;
+
+.sideline {
+    border-right: #2C2C2C 1px solid;
 }
 
 .link{
@@ -245,7 +365,26 @@ padding-bottom: 2rem;
 .link:hover {
     color:  rgb(109, 109, 109);
     transition: 0.1s ease-in-out; 
-  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.padding-bottom{
+padding-bottom: 2rem;
+}
+
+
 
 .spacerlist{
     padding-top: 20px;
@@ -299,7 +438,9 @@ li{
 }
 
 
-
+.number{
+    min-width: 3.2rem;
+}
 
 
 
@@ -314,81 +455,17 @@ li{
     max-width: 160px;
     min-width: 200px;
     padding-top: 140%;
+    /* position: absolute; */
 
 }
 
-h2{
-    font-family: 'Maison-Neue-Ext-Book';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 45px; 
-    text-rendering: optimizeLegibility;
-  -webkit-font-feature-settings: "kern"1;
-  font-feature-settings: "kern"1;
-}
-
-h4{
-    font-family: 'Maison-Neue-Ext-Book';
-    font-weight: normal;
-    font-style: normal; 
-    line-height: 2rem;
-    font-size: 30px;
-    text-rendering: optimizeLegibility;
-  -webkit-font-feature-settings: "kern"1;
-  font-feature-settings: "kern"1;
-}
-
-h5{
-    font-family: 'Maison-Neue-Ext-Book';
-    font-weight: normal;
-    font-style: normal; 
-    line-height: 36px;
-    font-size: 26px;
-    text-rendering: optimizeLegibility;
-  -webkit-font-feature-settings: "kern"1;
-  font-feature-settings: "kern"1;
-}
-
-h6{
-    font-family: 'Maison-Neue-Ext-Book';
-    font-weight: normal;
-    font-style: normal; 
-    /* line-height: 36px; */
-    font-size: 22px;
-    text-rendering: optimizeLegibility;
-  -webkit-font-feature-settings: "kern"1;
-  font-feature-settings: "kern"1;
-}
-
-.boldp {
-    font-family: 'Maison-Neue-Bold';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 16px; 
-    text-rendering: optimizeLegibility;
-  -webkit-font-feature-settings: "kern"1;
-  font-feature-settings: "kern"1;
-  -webkit-font-smoothing: antialiased;
-  color: black;
-}  
-
-
-p {
-    font-family: 'Maison-Neue-Book';
-    font-weight: normal;
-    font-style: normal;
-    text-rendering: optimizeLegibility;
-  -webkit-font-feature-settings: "kern"1;
-  font-feature-settings: "kern"1;
-}
-
-a{
-    color: #2C2C2C;
-}
 
 
 
-/* Media queires  */
+/*------------------------------------*\
+  #MEDIA
+\*------------------------------------*/
+
 
 
 @media (max-width: 575.98px) { 
@@ -411,4 +488,12 @@ h1 {
 
 }
 
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 1373px) { 
 
+.showhide{
+    display: block;
+}
+
+
+}
