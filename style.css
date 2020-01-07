@@ -28,6 +28,12 @@ body {
 
 }
 
+.color4{
+    background-color: #fafafa;
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+}
+
 .color3{
 background-color: #FFF6ED;
 padding-top: 4rem;
@@ -213,6 +219,7 @@ a{
 
 .container{
 margin-bottom: 5rem;
+/* max-width: 1200px; */
 }
 
 .container-fluid{
@@ -263,9 +270,8 @@ margin-bottom: 5rem;
 }
 
 .small-svg{
-    width: 32px;
+    width: 50px;
     min-width: 32px;
-    padding-left: 10px;
 }
 
 .text-right{
@@ -319,6 +325,10 @@ margin-bottom: 2.2rem;
     margin-top: 4rem;
 }
 
+.bottomspacer{
+    margin-bottom: 5rem;
+}
+
 
 
 .inset{
@@ -344,14 +354,15 @@ margin-bottom: 2.2rem;
     font-size: 18px;
     color: #2C2C2C;
     line-height: 100px;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     text-decoration: underline;
 
 }
 
 .linksmall:hover {
     color:  rgb(109, 109, 109);
-    transition: 0.1s ease-in-out; 
+    transition: 0.1s ease-in-out;
+    text-decoration: none; 
   }
 
 
@@ -373,19 +384,46 @@ margin-bottom: 2.2rem;
 }
 
 .link:hover {
-    color:  rgb(109, 109, 109);
+    color: black;
     transition: 0.1s ease-in-out; 
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+span{
+    margin-bottom: 4px;
+}
+
+h2 span {
+    display: block;
+}
+
+#foot a:hover{
+    color: thistle;
+}
+
+.blackbackground{
+    color: black;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: block;
+    background-color: black;
+    width: 100%;
 }
 
 
-
-
-
-
-
-
-
-
+.whitetext{
+    color: white;
+    max-width: 620px;
+}
 
 
 
@@ -441,12 +479,20 @@ li{
     padding: 0;
     color: black;
     font-size: 22px;
-    /* text-decoration: underline; */
+    text-decoration: underline;
     margin-bottom: 2rem;
     font-family:'Maison-Neue-Ext-Book' ;
     text-align: left;
 }
 
+.btn-link{
+color: black;
+}
+
+.btn-link:hover {
+    color: black;
+    text-decoration: none;
+}
 
 .number{
     min-width: 3.2rem;
@@ -490,6 +536,10 @@ h1 {
 
 .inset{
     margin-left: 1%;
+}
+
+.flow{
+   flex-direction: column-reverse;
 }
 
 .navbar {
