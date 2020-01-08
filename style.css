@@ -75,6 +75,32 @@ line-height: 26px;
 }
 
 
+body {
+    opacity: 1;
+    transition: 1s opacity;
+    visibility: visible;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+  
+  body.fade {
+      opacity: 0;
+      -webkit-transform: translateY(20px);
+      -moz-transform: translateY(20px);
+      -ms-transform: translateY(20px);
+      -o-transform: translateY(20px);
+      transform: translateY(20px);
+      -webkit-transition: opacity 1s, transform 0.75s;
+      -moz-transition: opacity 1s, transform 0.75s;
+      -ms-transition: opacity 1s, transform 0.75s;
+      -o-transition: opacity 1s, transform 0.75s;
+      transition: opacity 1s, transform 0.75s;
+  
+  }
+
 
 /*------------------------------------*\
   #FONTS
