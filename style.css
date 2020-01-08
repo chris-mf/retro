@@ -241,7 +241,7 @@ margin-bottom: 5rem;
 }
 
 .maxtext-small {
-    max-width: 900px;
+    max-width: 500px;
 }
 
 .container-fluid {
@@ -272,6 +272,8 @@ margin-bottom: 5rem;
 .small-svg{
     width: 50px;
     min-width: 32px;
+    margin-bottom: 20px;
+
 }
 
 .text-right{
@@ -353,7 +355,6 @@ margin-bottom: 2.2rem;
     font-style: normal;
     font-size: 18px;
     color: #2C2C2C;
-    line-height: 100px;
     /* padding-bottom: 20px; */
     text-decoration: underline;
 
@@ -423,6 +424,7 @@ h2 span {
 .whitetext{
     color: white;
     max-width: 620px;
+
 }
 
 
@@ -516,8 +518,18 @@ color: black;
 }
 
 
+.sendtobottom{
+    display: flex;
+    flex-flow: column nowrap;
+    align-self: flex-end;
+}
 
 
+.padding-left{
+    padding-left: 30px;
+    max-width: 300px;
+
+}
 /*------------------------------------*\
   #MEDIA
 \*------------------------------------*/
@@ -530,12 +542,20 @@ h1 {
     }
 
 .display-3{
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+p {
+    font-size: 16px;
 }
 
 .inset{
     margin-left: 1%;
+}
+
+.sendtobottom{
+    margin-top: 150px;
 }
 
 .flow{
@@ -546,14 +566,28 @@ h1 {
     margin-bottom: 2rem;
 }
 
+
+.spacer-large{
+     margin-bottom: 2.5rem;
 }
+
+.topspacer {
+    margin-top: 1rem;
+
+}
+
+
+   
+}
+
+
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 1373px) { 
 
-.showhide{
+    .showhide{
     display: block;
-}
+    }
 
 
 }
