@@ -21,6 +21,8 @@
     <meta property="og:title" content="Easily get 360° feedback to help you grow from the people you work with most." />
     <meta property="og:url" content="https://personalretro.com">
     <meta property="og:image" href="/images/image.jpg">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- my javascript -->
     <script src="./script.js"></script>
@@ -46,14 +48,15 @@
 </script>
 
 
+
 </head>
 
 <body>
 
 
-    <script>
+    <!-- <script>
       document.body.className = 'fade';
-    </script>
+    </script> -->
 
 
 
@@ -66,7 +69,7 @@
 
 
 
-    <div class="container-fluid">
+    <div class="container-fluid"data-aos="fade-up" >
         <div class="row">
             <div class="col-sm-8 inset">
                 <h6 class="spacer">A team-based feedback workshop</h6>
@@ -85,7 +88,7 @@
 
 
 
-    <div class="container-fluid">
+    <div class="container-fluid" data-aos="fade-up" data-aos-easing="ease-in-out">
         <div class="row movedown">
             <div class="col-sm-8">
                 <img class="spacer-small " alt="Lady and man putting cards up on the wall"
@@ -108,9 +111,9 @@
     </div>
 
 <div class="color2" id="howtorun" >
-    <div class="container">
-        <h2 class="spacer-large">How to run it.</h2>
-        <div class="row">
+    <div class="container" data-aos="fade-up">
+        <h2 class="spacer-large" " >How to run it.</h2>
+        <div class="row" >
             <div class="col-6 col-md-4 spacer">
                 <h4 class="spacer-small">Stats.</h4>
                 <h6 class="boldp">Timeframe</h6>
@@ -176,8 +179,8 @@
 </div>
 
 <div class="color4">
-    <div class="container">
-        <h2 class="spacer-large">What you will need.</h2>
+    <div class="container" data-aos="fade-up" >
+        <h2 class="spacer-large"">What you will need.</h2>
         <div class="row">
             <div class="col-sm-4 centertext">
                 <img class="illustration" alt="email illustration" src="images/email1.svg">
@@ -204,7 +207,7 @@
 
 
 <div class="color3">
-    <div class="container">
+    <div class="container" data-aos="fade-up" >
 
         <h2 class="spacer-large">Why this works.</h2>
 
@@ -260,7 +263,7 @@
 
 <div class="color2">
 
-    <div class="container">
+    <div class="container" data-aos="fade-up">
 
         <h2 class="spacer">Common questions.</h2>
         <div class="accordion" id="accordionExample">
@@ -379,7 +382,7 @@
 
 
     <div class="blackbackground" id="foot">
-        <div class="container">
+        <div class="container" data-aos="fade-up" >
             <div class="row">
                 <div class="col-sm-8">
                     <div class="maxtext-small">
@@ -406,6 +409,11 @@
              </div>
             </div>
     </div>
+
+    <script>
+        AOS.init();
+      </script>
+
 
     <script>
         document.addEventListener("DOMContentLoaded", function(e) {
