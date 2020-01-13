@@ -51,11 +51,18 @@ padding-bottom: 1rem;
     min-width: 95%; 
 }
 
-img {
+.whyworks
+{
+    min-width: 90%;
+    width:100%;
+
+}
+
+/* img {
     width: 100%;
     max-width: 681px;
     min-width: 95%;
-}
+} */
 
 p {
 color:#666;
@@ -290,13 +297,18 @@ margin-bottom: 5rem;
 .illustration {
     height: 150px;
   width: 50%;
+  min-width: 95%;
 }
 
-.illo {
+/* width: 100%;
+max-width: 681px;
+min-width: 95%; */
+
+/* .illo {
     width: 90%;
     min-width: 2%;
     max-width: 500px;
-}
+} */
 
 .spacer-top-small{
     margin-top: 10px;
