@@ -4,6 +4,7 @@
 
 
 
+
 html {
     scroll-behavior: smooth;
   }
@@ -44,6 +45,12 @@ padding-bottom: 1rem;
    padding-top: 5rem;
 } */
 
+.mainimage{
+    width: 100%;
+    max-width: 681px;
+    min-width: 95%; 
+}
+
 img {
     width: 100%;
     max-width: 681px;
@@ -51,7 +58,7 @@ img {
 }
 
 p {
-color:#637381;
+color:#666;
 font-weight: 400;
 font-family: 'Maison-Neue-Book';
 font-size: 18px;
@@ -311,8 +318,10 @@ margin-bottom: 5rem;
 .navbar{
     border-bottom: black solid 1px;
     height: 70px;
-    /* padding-left: 2%; */
     max-height: 70px;
+    max-width: 2800px;
+    margin-bottom: 5rem;
+    padding-left: 5%;
 }
 
 .color1{
@@ -328,9 +337,7 @@ margin-bottom: 5rem;
     padding-right: 10px;
 }
 
-.navbar{
-margin-bottom: 5rem;
-}
+
 
 
 .spacer{
@@ -350,7 +357,7 @@ margin-bottom: 2.2rem;
 }
 
 .topspacer {
-    margin-top: 4rem;
+    margin-top: 10rem;
 }
 
 .bottomspacer{
@@ -472,11 +479,11 @@ padding-bottom: 2rem;
 }
 
 ul{
-    color: #637381;
+    color: #666;
 }
 
 li{
-    color:#637381;
+    color:#666;
 }
 
 .card{
@@ -503,14 +510,23 @@ li{
     
 }
 
+.borderorange{
+    max-width: 675px;
+    box-shadow: 15px 15px #FFE2C4;
+}
+
 .btn{
     padding: 0;
     color: black;
     font-size: 22px;
     text-decoration: underline;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-family:'Maison-Neue-Ext-Book' ;
     text-align: left;
+}
+
+.maxwidth{
+    max-width: 420px;
 }
 
 .btn-link{
@@ -605,6 +621,51 @@ p {
 
    
 }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .display-3{
+        font-size: 40px;
+        line-height: 48px;
+    }
+ }
+
+
+
+
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .display-3{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    
+}
+
+
+
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+    .display-3{
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
+
+@media (max-width: 1400px) {
+
+    .display-3{
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
+
+
+
+
 
 
 
