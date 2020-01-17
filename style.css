@@ -1,7 +1,33 @@
 /*------------------------------------*\
-  #GLOBAL
+  #Wheels
 \*------------------------------------*/
 
+
+
+
+/* .row{
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+}
+
+.col-sm-4{
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+}
+
+.col-sm-8{
+    border-style: solid;
+    border-color: green;
+    border-width: 2px;
+}
+ */
+
+
+ /*------------------------------------*\
+  #GLOBAL
+\*------------------------------------*/
 
 
 
@@ -57,6 +83,7 @@ padding-bottom: 1rem;
     width:100%;
 
 }
+
 
 /* img {
     width: 100%;
@@ -161,9 +188,9 @@ body {
     font-family: 'Maison-Neue-Ext-Book';
     font-weight: normal;
     font-style: normal;
-    font-size: 80px;
+    font-size: 40px;
     color: #2C2C2C;
-    line-height: 100px;
+    line-height: 48px;
     padding-bottom: 20px;
 
 }
@@ -181,6 +208,18 @@ h2{
     text-rendering: optimizeLegibility;
   -webkit-font-feature-settings: "kern"1;
   font-feature-settings: "kern"1;
+}
+
+h3{
+    font-family: 'Maison-Neue-Ext-Book';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 34px; 
+    text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "kern"1;
+  font-feature-settings: "kern"1;
+
+
 }
 
 h4{
@@ -290,6 +329,16 @@ margin-bottom: 5rem;
     margin-bottom: 5rem;
 }
 
+.line{
+    width: 100%;
+    border-style: solid;
+    border-color: #EDEDED;
+    opacity: .5;
+    border-width: 1px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
 .centertext{
     text-align:center;
 }
@@ -384,6 +433,31 @@ margin-bottom: 2.2rem;
 
 .showhide{
     display: none;
+}
+
+li{
+    padding-top: .5rem;
+}
+
+
+/* .li > span{
+    display: block;
+} */
+
+ul  {
+    margin: 0;
+    padding: 1.1rem;
+    max-width: 600px;
+}
+
+.background-box{
+    box-shadow: 15px 15px #E8E8E8;
+    width: 100%;
+    height: 350px;
+    border-color: #E8E8E8;
+    border-style: solid;
+    border-width: 1px;
+    padding: 30px;
 }
 
 
@@ -635,11 +709,15 @@ p {
 }
 
 /* // Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { 
+@media (min-width: 767.98px) { 
     .display-3{
         font-size: 40px;
         line-height: 48px;
     }
+    .background-box{
+        max-height: 225px;
+    }
+    
  }
 
 
@@ -647,11 +725,16 @@ p {
 
 
 /* // Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { 
+@media (min-width: 991.98px) { 
     .display-3{
-        font-size: 40px;
-        line-height: 48px;
+        font-size: 50px;
+        line-height: 58px;
     }
+
+    .background-box{
+        max-height: 225px;
+    }
+    
     
 }
 
@@ -659,34 +742,48 @@ p {
 
 
 /* // Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
+@media (min-width: 1199.98px) {
 
     .display-3{
-        font-size: 40px;
-        line-height: 48px;
+        font-size: 60px;
+        line-height: 68px;
     }
+    .background-box{
+        max-height: 225px;
+    }
+    
+    
 }
 
-@media (max-width: 1400px) {
+@media (min-width: 1400px) {
 
     .display-3{
-        font-size: 40px;
-        line-height: 48px;
+        font-size: 80px;
+        line-height: 100px;
     }
+   
+    .background-box{
+        max-height: 225px;
+    }
+    
+
+    
 }
-
-
-
 
 
 
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 1373px) { 
+@media (min-width: 1400px) { 
 
     .showhide{
     display: block;
     }
+    
+    .background-box{
+        max-height: 225px;
+    }
+    
 
 
 }
