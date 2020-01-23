@@ -320,7 +320,7 @@ p {
 
 .p20{
     font-size: 20px;
-    line-height: 33px;
+    line-height: 30px;
 }
 
 a{
@@ -342,7 +342,7 @@ a{
 
 .container{
 margin-bottom: 2rem;
-/* max-width: 1200px; */
+max-width: 1200px;
 }
 
 .container-fluid{
@@ -393,15 +393,6 @@ margin-bottom: 2rem;
   min-width: 95%;
 }
 
-/* width: 100%;
-max-width: 681px;
-min-width: 95%; */
-
-/* .illo {
-    width: 90%;
-    min-width: 2%;
-    max-width: 500px;
-} */
 
 .spacer-top-small{
     margin-top: 10px;
@@ -696,8 +687,11 @@ padding-bottom: 2rem;
     border-width: 3px;
     border-style: solid;
     border-color: #262626;
-    box-shadow: 15px 15px #262626;
-    margin-right: 20px;
+    box-shadow: 8px 8px #262626;
+}
+
+.h5maxwidth{
+    max-width: 320px;
 }
 
 
