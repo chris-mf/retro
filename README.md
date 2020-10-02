@@ -2,4 +2,8 @@
 Personal retro site 
 
 
-Built using Bootstrap 
+Built using a combination of Bootstrap and custom components. 
+
+To use:
+cd/ - location
+git pull 
