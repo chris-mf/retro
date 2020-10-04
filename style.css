@@ -68,7 +68,7 @@ padding-bottom: 1rem;
 }
 
 .color3{
-background-color: #FDF4E9;
+background-color: #F5EFED;
 padding-top: 4rem;
 padding-bottom: 1rem;
 }
@@ -200,9 +200,19 @@ body {
     src: url("./fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("./fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("./fonts/glyphicons-halflings-regular.woff") format("woff"), url("./fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("./fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
   }
 
+  @font-face {
+    font-family: 'Maison-Neue-Ext-Bold';
+    src: url('./fonts/MaisonNeueExt-Bold.woff2') format('woff2'),
+        url('./fonts/MaisonNeueExt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+   
+}
+
+
 
   .display-3{
-    font-family: 'Maison-Neue-Ext-Medium';
+    font-family: 'Maison-Neue-Ext-Bold';
     font-weight: normal;
     font-style: normal;
     font-size: 40px;
@@ -360,7 +370,7 @@ max-width: 1200px;
 
 
 .maxtext{
-    max-width: 1200px;
+    max-width: 600px;
 }
 
 .maxtext-small {
@@ -829,12 +839,23 @@ p {
 
    
 }
+@media (min-width: 650.98px) { 
+
+    .display-3{
+        font-size: 50px;
+        line-height: 58px;
+    }
+
+
+}
+
+
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (min-width: 767.98px) { 
     .display-3{
-        font-size: 40px;
-        line-height: 48px;
+        font-size: 60px;
+        line-height: 68px;
     }
     .background-box{
         max-height: 225px;
@@ -857,8 +878,8 @@ p {
 /* // Medium devices (tablets, less than 992px) */
 @media (min-width: 991.98px) { 
     .display-3{
-        font-size: 50px;
-        line-height: 58px;
+        font-size: 60px;
+        line-height: 68px;
     }
 
     .background-box{
@@ -893,16 +914,16 @@ p {
     }
     
     .container-fluid {
-        margin-bottom: 10rem;
+        margin-bottom: 5rem;
     
 }
 
 @media (min-width: 1400px) {
 
     .display-3{
-        font-size: 80px;
-        line-height: 88px;
-        max-width: 1000px;
+        font-size: 90px;
+        line-height: 98px;
+        max-width: 900px;
     }
    
     .background-box{
